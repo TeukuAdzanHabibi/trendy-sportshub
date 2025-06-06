@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trendy - Temukan Tempat Olahraga</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <!-- Utama CSS -->
+  <link rel="stylesheet" href="index.css" />
+
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    #map {
+      height: 400px;
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="fade-in">
+    <div class="container">
+      <div class="logo">TRENDY</div>
+      <nav>
+        <a href="#tentang-kami">Tentang Kami</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero fade-in">
+    <div class="container">
+      <h2>
+        <span>Pake Trendy</span><br />
+        Cari Tempat Olahraga <strong>GAPAKE Ribet</strong>
+      </h2>
+      <p>Mau olahraga dimana hari ini?</p>
+
+      <!-- FILTER -->
+      <div class="form-filter">
+        <select id="jenisSelect" class="fade-in">
+          <option selected disabled>Pilih Jenis Cabang Olahraga</option>
+        </select>
+        <button id="searchBtn" class="fade-in">Cari Venue</button>
+      </div>
+
+      <!-- MAP -->
+      <div class="map-container fade-in">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTED SECTION -->
+  <section class="highlighted-section fade-in" id="tentang-kami">
+    <div class="container footer-info">
+      <h3>Badan Sehat, Tubuh Kuat</h3>
+      <p>Cari Venue Olahraga bareng Trendy</p>
+    </div>
+  </section>
+
+  <!-- PROMO SECTION -->
+  <section class="promo-section fade-in">
+    <div class="promo-overlay"></div>
+    <div class="promo-content container">
+      <h2>
+        Tidak ada waktu yang lebih tepat untuk memulai —<br />
+        atur jadwal, temukan lapangan, dan wujudkan semangat kompetitifmu<br />
+        bersama komunitas olahraga terbaik di kota ini!
+      </h2>
+    </div>
+  </section>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Utama JS -->
+  <script src="index.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const fadeElems = document.querySelectorAll('.fade-in');
+      const observer = new IntersectionObserver(
+        (entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              obs.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.2 }
+      );
+      fadeElems.forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+[
+  { "ID_Jenis": 2000, "Nama_Olahraga": "Futsal" },
+  { "ID_Jenis": 2001, "Nama_Olahraga": "Badminton" },
+  { "ID_Jenis": 2002, "Nama_Olahraga": "Basket" },
+  { "ID_Jenis": 2003, "Nama_Olahraga": "Voli" },
+  { "ID_Jenis": 2004, "Nama_Olahraga": "Tenis" },
+  { "ID_Jenis": 2005, "Nama_Olahraga": "Sepakbola" },
+  { "ID_Jenis": 2006, "Nama_Olahraga": "Atletik" }
+]

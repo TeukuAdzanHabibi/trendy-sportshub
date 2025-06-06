@@ -1,0 +1,102 @@
+[
+  {
+    "ID_Lapangan": 1000,
+    "Nama_Lapangan": "UNDIP International Futsal Stadium",
+    "Lokasi": "Jl. Prof. Soedarto, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277",
+    "Koordinat_X": -7.05405006185209,
+    "Koordinat_Y": 110.445372573166,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2000
+  },
+  {
+    "ID_Lapangan": 1001,
+    "Nama_Lapangan": "Reham Futsal Arena",
+    "Lokasi": "Jl. Mulawarman Sel. Dalam I, Kramas, Kec. Tembalang, Kota Semarang, Jawa Tengah 50278",
+    "Koordinat_X": -7.07038353225789,
+    "Koordinat_Y": 110.440086186985,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2000
+  },
+  {
+    "ID_Lapangan": 1002,
+    "Nama_Lapangan": "Lapangan Voli FSM Undip",
+    "Lokasi": "Tembalang, Kec. Tembalang, Kota Semarang, Jawa Tengah 50275",
+    "Koordinat_X": -7.04842243508577,
+    "Koordinat_Y": 110.442100902327,
+    "Kualitas_Lapangan": "B",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2003
+  },
+  {
+    "ID_Lapangan": 1003,
+    "Nama_Lapangan": "Lapangan Badminton Bulusan Square",
+    "Lokasi": "Jalan Timoho Raya / Jl Imam Suparto Kav.19, Bulusan, Tembalang, Semarang City, Central Java 50277",
+    "Koordinat_X": -7.06020070488851,
+    "Koordinat_Y": 110.446017225141,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2001
+  },
+  {
+    "ID_Lapangan": 1004,
+    "Nama_Lapangan": "Lapangan volly Ngembak / Turonggo Seto Ngembak",
+    "Lokasi": "Jl. Gondang Tim. III No.25, Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277",
+    "Koordinat_X": -7.06219528207311,
+    "Koordinat_Y": 110.443178677969,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2003
+  },
+  {
+    "ID_Lapangan": 1005,
+    "Nama_Lapangan": "Venus Futsal Club",
+    "Lokasi": "Jl. Gendong Raya, Sendangmulyo, Kec. Tembalang, Kota Semarang, Jawa Tengah 50272",
+    "Koordinat_X": -7.04115546424514,
+    "Koordinat_Y": 110.466867946935,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2000
+  },
+  {
+    "ID_Lapangan": 1006,
+    "Nama_Lapangan": "Lapangan Basket Umum Universitas Diponegoro",
+    "Lokasi": "Bulusan, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277",
+    "Koordinat_X": -7.05248471568455,
+    "Koordinat_Y": 110.444981122347,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2002
+  },
+  {
+    "ID_Lapangan": 1007,
+    "Nama_Lapangan": "Stadion Universitas Diponegoro",
+    "Lokasi": "Jl. Prof. Soedarto, SH, Kec. Tembalang, Kota Semarang, Jawa Tengah 50277",
+    "Koordinat_X": -7.05468098332057,
+    "Koordinat_Y": 110.445889555684,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2005
+  },
+  {
+    "ID_Lapangan": 1008,
+    "Nama_Lapangan": "Lapangan Futsal Undip",
+    "Lokasi": "Jl. Prof. Soedarto, SH, Tembalang, Bulusan, Semarang, Kota Semarang, Jawa Tengah 50277",
+    "Koordinat_X": -7.05412795712681,
+    "Koordinat_Y": 110.445900737088,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2000
+  },
+  {
+    "ID_Lapangan": 1009,
+    "Nama_Lapangan": "Alwali Sports Area",
+    "Lokasi": "Jl. Kelurahan Karangturi, Sendangmulyo, Kec. Tembalang, Kota Semarang, Jawa Tengah 50272",
+    "Koordinat_X": -7.03241878384215,
+    "Koordinat_Y": 110.468981267014,
+    "Kualitas_Lapangan": "A",
+    "Status_Ketersediaan": "YA",
+    "ID_Jenis": 2001
+  }
+]
